@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones Pro",
+        "description": "Premium wireless headphones with active noise cancellation, deep bass, and long-lasting battery life for everyday use.",
+        "price": 149.99,
+        "image": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf",
+        "ratings": 4.6
+    },
+    {
+        "id": 2,
+        "name": "Smart Fitness Watch",
+        "description": "Advanced fitness tracking watch featuring heart-rate monitoring, sleep tracking, and customizable workout modes.",
+        "price": 99.99,
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+        "ratings": 4.4
+    },
+    {
+        "id": 3,
+        "name": "Minimal Desk Lamp",
+        "description": "Modern LED desk lamp with adjustable brightness and color temperature, designed for productivity and comfort.",
+        "price": 39.99,
+        "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
+        "ratings": 4.3
+    },
+    {
+        "id": 4,
+        "name": "Ergonomic Office Chair",
+        "description": "Comfort-focused office chair with lumbar support, breathable mesh back, and adjustable height settings.",
+        "price": 229.99,
+        "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "ratings": 4.7
+    },
+    {
+        "id": 5,
+        "name": "Portable Bluetooth Speaker",
+        "description": "Compact Bluetooth speaker delivering rich sound, waterproof design, and up to 12 hours of playtime.",
+        "price": 59.99,
+        "image": "https://images.unsplash.com/photo-1518441902117-fb0a4c7c2b8d",
+        "ratings": 4.5
+    },
+    {
+        "id": 6,
+        "name": "Mechanical Keyboard",
+        "description": "High-performance mechanical keyboard with tactile switches, RGB backlighting, and durable aluminum frame.",
+        "price": 129.99,
+        "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f",
+        "ratings": 4.8
+    },
+    {
+        "id": 7,
+        "name": "Ultra HD Monitor",
+        "description": "27-inch Ultra HD monitor with vibrant colors, high refresh rate, and slim bezels for immersive viewing.",
+        "price": 299.99,
+        "image": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc",
+        "ratings": 4.6
+    },
+    {
+        "id": 8,
+        "name": "Noise-Canceling Earbuds",
+        "description": "True wireless earbuds with active noise cancellation, crystal-clear audio, and fast charging support.",
+        "price": 89.99,
+        "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df",
+        "ratings": 4.4
+    },
+    {
+        "id": 9,
+        "name": "Smart Home Assistant",
+        "description": "Voice-controlled smart assistant for home automation, reminders, music streaming, and real-time updates.",
+        "price": 79.99,
+        "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1a3",
+        "ratings": 4.2
+    },
+    {
+        "id": 10,
+        "name": "Portable Power Bank",
+        "description": "High-capacity power bank with fast charging support, compact design, and multiple device compatibility.",
+        "price": 49.99,
+        "image": "https://images.unsplash.com/photo-1580894908361-967195033215",
+        "ratings": 4.5
+    },
+    {
+        "id": 11,
+        "name": "Smart LED Light Kit",
+        "description": "Customizable smart LED lighting kit with app control, color presets, and voice assistant integration.",
+        "price": 69.99,
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "ratings": 4.3
+    },
+    {
+        "id": 12,
+        "name": "Compact Digital Camera",
+        "description": "Lightweight digital camera offering high-resolution photos, optical zoom, and easy portability.",
+        "price": 249.99,
+        "image": "https://images.unsplash.com/photo-1519183071298-a2962be96c88",
+        "ratings": 4.4
+    },
+    {
+        "id": 13,
+        "name": "Adjustable Standing Desk",
+        "description": "Height-adjustable standing desk designed to improve posture, productivity, and workspace flexibility.",
+        "price": 399.99,
+        "image": "https://images.unsplash.com/photo-1586880244406-556ebe35f282",
+        "ratings": 4.7
+    },
+    {
+        "id": 14,
+        "name": "Gaming Mouse Pro",
+        "description": "Precision gaming mouse with customizable DPI, ergonomic design, and programmable buttons.",
+        "price": 59.99,
+        "image": "https://images.unsplash.com/photo-1527814050087-3793815479db",
+        "ratings": 4.6
+    },
+    {
+        "id": 15,
+        "name": "Premium Laptop Sleeve",
+        "description": "Slim and durable laptop sleeve made with water-resistant materials for everyday protection.",
+        "price": 29.99,
+        "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+        "ratings": 4.3
+    }
+]
