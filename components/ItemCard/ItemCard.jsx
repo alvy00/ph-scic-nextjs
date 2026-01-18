@@ -2,11 +2,15 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const ItemCard = ({ item }) => {
     const { id, name, description, price, image, ratings } = item;
+    const router = useRouter();
 
-    const handleDetails = () => {};
+    const handleDetails = (id) => {
+        router.push(`/items/${id}`);
+    };
 
     return (
         <motion.div
@@ -56,7 +60,7 @@ const ItemCard = ({ item }) => {
                 </div>
             </div>
             <button
-                onClick={handleDetails}
+                onClick={() => handleDetails(id)}
                 className="text-center border p-1 my-4 rounded-2xl hover:bg-gray-600 w-[50%] transition duration-300 cursor-pointer"
             >
                 View Details

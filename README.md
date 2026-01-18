@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Item Management System
 
-## Getting Started
+## 📌 Short Project Description
 
-First, run the development server:
+The **Item Management System** is a simple frontend-focused web application built to demonstrate routing, state handling, and basic authentication concepts using Next.js. The system allows users to log in using cookie-based authentication and browse a list of items along with detailed views for each item. This project is ideal for learning and showcasing core frontend concepts without relying on a backend or database.
+
+## LIVE LINK: https://ph-scic-nextjs.vercel.app/
+
+## ⚙️ Setup & Installation Instructions
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/alvy00/ph-scic-nextjs
+cd <project-folder>
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and visit:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧭 Route Summary
 
-To learn more about Next.js, take a look at the following resources:
+| Route        | Description                                  |
+| ------------ | -------------------------------------------- |
+| `/login`     | Login page with cookie-based authentication  |
+| `/items`     | Displays a list of available items           |
+| `/items/:id` | Shows detailed information for a single item |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Implemented Features
 
-## Deploy on Vercel
+-   Cookie-based login system
+-   Item listing page
+-   Individual item detail pages
+-   Client-side routing with Next.js
+-   Responsive UI using Tailwind CSS and DaisyUI
+-   Toast notifications for user feedback
+-   Deployed on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔍 Feature Explanations
+
+### 🔐 Cookie-Based Login
+
+Users can log in using predefined credentials. On successful login, a cookie is stored in the browser to simulate authentication.
+
+### 📦 View Items
+
+The `/items` route displays a list of items in a clean, responsive layout styled with DaisyUI components.
+
+### 📄 View Item Details
+
+Clicking on an item navigates the user to `/items/:id`, where detailed information about the selected item is shown.
+
+### 🎨 UI & Styling
+
+The application uses **Tailwind CSS** for utility-first styling and **DaisyUI** for ready-made UI components, ensuring a modern and consistent design.
+
+### 🚀 Deployment
+
+The project is deployed on **Vercel**, enabling fast builds, easy routing support, and seamless Next.js integration.
+
+---
+
+## 🛠 Tech Stack
+
+-   **Framework:** Next.js
+-   **Styling:** Tailwind CSS, DaisyUI
+-   **Authentication:** Cookie-based (client-side)
+-   **Hosting:** Vercel
+
+---
+
+## 📚 Notes
+
+This project is intended for **learning, practice, and portfolio demonstration** purposes. It focuses on frontend architecture and routing rather than full-stack implementation.
